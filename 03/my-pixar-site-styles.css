@@ -4,7 +4,7 @@ html, body {
 }
 
 body.mmm {
-    transition: 0.3s all linear;
+    transition: 0.5s background linear;
     background: rgba(172, 202, 223, 0.582);
 }
 
@@ -20,6 +20,16 @@ header {
     padding: 0.5rem;
     width: 800px;
     margin: 0 auto;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#gallery img {
+    width: 150px;
 }
 
 #truth-bomb {
