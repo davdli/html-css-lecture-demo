@@ -1,0 +1,8 @@
+{
+  "name": "2106-html-css-lecture",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "http-server ."
+  },
+  "author": "Joe Alves"
+}
