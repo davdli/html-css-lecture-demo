@@ -4,5 +4,8 @@
   "scripts": {
     "start": "http-server ."
   },
-  "author": "Joe Alves"
+  "author": "Joe Alves",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
 }
