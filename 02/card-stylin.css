@@ -3,6 +3,19 @@
 }
 
 body {
-    background: blanchedalmond;
+    background: rgb(243, 241, 238);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+* {
+    color: navy;
+}
+
+main.important-text {
+    background-color: white;
+}
+
+/* .important-text {
+    background: purple;
+} */
+
