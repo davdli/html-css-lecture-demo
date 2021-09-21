@@ -22,12 +22,6 @@ header {
     margin: 0 auto;
 }
 
-#gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
 #gallery img {
     width: 150px;
 }
