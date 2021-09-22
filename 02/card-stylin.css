@@ -2,20 +2,72 @@
     box-sizing: border-box;
 }
 
+
 body {
-    background: rgb(243, 241, 238);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    height: 100vh;
+    max-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: black;
 }
 
-* {
-    color: navy;
+body {
+    display: flex;
+    justify-content: middle;
+    align-items: middle;
 }
 
-main.important-text {
-    background-color: white;
+#middle {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
 }
 
-/* .important-text {
-    background: purple;
-} */
+#business-card {
+    background: #5b5b5b;
+    color: #1293d2;
+    border: 2px solid white;
+    padding: 30px;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: white 6px 8px 4px 2px;
+}
 
+#left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#top-text {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 100;
+}
+
+#phone-number {
+    margin: 0
+}
+
+#right-side {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    padding: 10px;
+    background: #1293d2;
+    width: 250px;
+    height: 350px;
+}
+
+@media (max-width) {
+
+}
